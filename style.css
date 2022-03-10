@@ -1,0 +1,44 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  color: rgb(107, 43, 226);
+
+  font-size: 20px;
+}
+
+h1 {
+  color: blue;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+  text-align: right;
+  text-decoration: overline;
+  text-transform: uppercase;
+}
+
+.header {
+  background-color: aqua;
+}
+.body {
+ 
+ background-color: rgb(76, 43, 226);
+
+}
+@media screen (max-width:"500px") {
+  
+}
+
+h1:hover {
+  color: green;
+  font-size: 50px;
+  background-color: darkolivegreen;
+}
+
+@media screen (max-width: "500px") {
+  body{
+    background -color:red;
+  }
+  
+}
